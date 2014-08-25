@@ -11,9 +11,9 @@ class Song
   end
 
   def to_s
-  	s = "**************************"
+    s = "**************************"
     s << "\nID: #{id}"
-  	s << "\nTitle: #{title}"
+    s << "\nTitle: #{title}"
     s << "\nAlbum: #{album}"
     s << "\nArtist: #{artist}"
     s << "\nGenre: #{genre}"
@@ -23,5 +23,3 @@ class Song
   end
 
 end
-
-

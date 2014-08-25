@@ -8,6 +8,6 @@ class Array
   end
 
   def clip(n= 1)
-  	take size - n
+    take size - n
   end
 end
