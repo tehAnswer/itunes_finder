@@ -23,7 +23,6 @@ class ItunesFinder
   end
 
   def method_missing(name, params = {})
-    puts name.to_s
     raise "NoMethodError" unless name.to_s.include? "songs"
     artist = name.to_s.split("_").clip.each {|word| word.capitalize!}.join (" ")
     get_songs(artist)
